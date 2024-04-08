@@ -1,7 +1,7 @@
 # Gradle
 .gradle/
-build/
-
+/build/*
+!/build/getting-started-1.0.0-SNAPSHOT-runner
 # Eclipse
 .project
 .classpath
