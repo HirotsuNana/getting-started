@@ -10,7 +10,7 @@ import jakarta.ws.rs.core.MediaType
 class GreetingResource {
 
     @Inject
-    private val service: GreetingService = GreetingService()
+    private var service: GreetingService = GreetingService()
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
